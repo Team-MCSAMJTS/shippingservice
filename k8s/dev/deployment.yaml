@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: marypearl/shippingservice:latest
+        image: alade01/shippingservice:latest
         ports:
         - containerPort: 50051
         env:
